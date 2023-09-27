@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@400;600&family=Skranji&family=Tilt+Prism&display=swap');
+
+*{padding: 0px; margin: 0px;}
+.navbar{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(209, 200, 245);
+}
+.links{
+    display: inline;
+}
+.links a{
+    text-decoration: none;
+    font-family:'Skranji';
+    font-size: medium;
+    padding: 0 2px 0 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid black;
+    opacity: .7;
+    transition: 4s;
+}
+.links a:hover{
+    opacity: 1;
+    font-size: 35px;
+    transition: 0.1s;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.rounded{border-radius: 10px;}
+.skyblue{background-color: aqua; color: black;}
+.pink{background-color: hotpink; color: black;}
+.blue{background-color: rgb(101, 186, 255); color: black;}
+.red{background-color: crimson; color: black;}
